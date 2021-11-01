@@ -69,9 +69,9 @@ async def echo(client, message):
 							fromt = i
 						if list[i] == translation.dest:
 							to = i
-					await message.reply_text(f"Translated from **{fromt.capitalize()}** To **{to.capitalize()}**\n\n```{translation.text}```\n\n join @SDBotsz")
+					await message.reply_text(f"Translated from **{fromt.capitalize()}** To **{to.capitalize()}**\n\n```{translation.text}```\n\n join @SDBotsz 🔥")
 			except Exception as e:
-					await message.reply_text(f"Translated from **{translation.src}** To **{translation.dest}**\n\n```{translation.text}```\n\n join @SDBotsz")
+					await message.reply_text(f"Translated from **{translation.src}** To **{translation.dest}**\n\n```{translation.text}```\n\n We Are @SDBOTz join @SDBotsz 🔥")
 	else:
 		await  message.reply_text("Select language 👇",reply_to_message_id = message.message_id, reply_markup =keybord1)
 
@@ -104,7 +104,7 @@ async def translate_text(bot,update):
 	InlineKeyboardButton("Dutch",callback_data = "nl"),
 	InlineKeyboardButton("Esperanto",callback_data = "eo"),	 
 	],
-	[InlineKeyboardButton(" Next --->",callback_data = "page2")
+	[InlineKeyboardButton(" Next »",callback_data = "page2")
 	]
 	] )
 
@@ -134,7 +134,7 @@ async def translate_text(bot,update):
            InlineKeyboardButton("Irish",callback_data = "ga")
            ],
            [InlineKeyboardButton("<--- Back",callback_data = "page1"),
-           InlineKeyboardButton(" Next --->",callback_data = "page3"),
+           InlineKeyboardButton(" Next »",callback_data = "page3"),
            ]
             ])
 		
@@ -164,7 +164,7 @@ async def translate_text(bot,update):
                 InlineKeyboardButton("Malay",callback_data ="ms")
                 ],
                 [InlineKeyboardButton("<--- Back",callback_data = "page2"),
-                InlineKeyboardButton(" Next --->",callback_data = "page4")
+                InlineKeyboardButton(" Next »",callback_data = "page4")
                 ]
               
  
@@ -196,7 +196,7 @@ async def translate_text(bot,update):
           InlineKeyboardButton("Samoan",callback_data= "sm"),
           ],
           [InlineKeyboardButton("<--- Back",callback_data = "page3"),
-          InlineKeyboardButton("Next --->",callback_data = "page5")
+          InlineKeyboardButton("Next »",callback_data = "page5")
           ]
           
  
@@ -230,7 +230,7 @@ async def translate_text(bot,update):
          InlineKeyboardButton("Telugu",callback_data = "te")
          ],
          [InlineKeyboardButton("<--- Back",callback_data = "page4"),
-         InlineKeyboardButton("Next --->",callback_data = "page6")
+         InlineKeyboardButton("Next »",callback_data = "page6")
          ]  ])
 
 
@@ -287,7 +287,7 @@ async def translate_text(bot,update):
       					fromt = i
       				if list[i] == translation.dest:
       					to = i 
-      			await update.message.edit(f"Translated from **{fromt.capitalize()}** To **{to.capitalize()}**\n\n```{translation.text}```\n\n join @SDBotsz")
+      			await update.message.edit(f"Translated from **{fromt.capitalize()}** To **{to.capitalize()}**\n\n{translation.text}\n\n join @SDBotsz 🔥")
       		except Exception as e:
-      			await update.message.edit(f"Translated from **{translation.src}** To **{translation.dest}**\n\n```{translation.text}```\n\n join @SDBotsz")
+      			await update.message.edit(f"Translated from **{translation.src}** To **{translation.dest}**\n\n{translation.text}\n\n join @SDBotsz 🔥")
       						

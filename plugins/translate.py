@@ -18,9 +18,9 @@ async def start(client, message):
 								     InlineKeyboardButton("Our Bot List 🔥",url = "https://t.me/SDBOTs_inifinity/441")]]))
             
             
-@Client.on_message(filters.private & filters.text  )
+@Client.on_message(filters.private & filters.text)
 async def echo(client, message):
-	keybord1= InlineKeyboardMarkup( [
+	keybord1= InlineKeyboardMarkup([
         [ 
             InlineKeyboardButton("Afrikaans", callback_data='af'),
              InlineKeyboardButton("Albanian", callback_data='sq'),
@@ -73,7 +73,7 @@ async def echo(client, message):
 			except Exception as e:
 					await message.reply_text(f"Translated from **{translation.src}** To **{translation.dest}**\n\n```{translation.text}```\n\n We Are @SDBOTz join @SDBotsz 🔥")
 	else:
-		await  message.reply_text("Select language 👇",reply_to_message_id = message.message_id, reply_markup =keybord1)
+		await  message.reply_text("Select language 🔽",reply_to_message_id = message.message_id, reply_markup =keybord1)
 
 @Client.on_callback_query()
 async def translate_text(bot,update):

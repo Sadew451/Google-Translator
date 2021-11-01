@@ -1,6 +1,6 @@
 from googletrans import Translator
 from pyrogram import Client, filters
-from helper.list import list
+from helper.langlist import langlist
 from helper.database import find_one
 @Client.on_message(filters.group & filters.command(["tr"]))
 async def left(client,message):

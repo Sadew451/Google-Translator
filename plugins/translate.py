@@ -6,7 +6,7 @@ from pyrogram.types import (
 )
 
 from helper.database import find , insert
-from helper.list import list
+from helper.langlist import langlist
 
 @Client.on_message(filters.private & filters.command(['start']))
 async def start(client, message):

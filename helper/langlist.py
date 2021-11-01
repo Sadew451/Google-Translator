@@ -1,4 +1,4 @@
-list = {
+langlist = {
 "afrikaans":"af",
 "albanian":"sq",
 "amharic":"am",

@@ -133,7 +133,7 @@ async def translate_text(bot,update):
            InlineKeyboardButton("Indonesian",callback_data = "id"),
            InlineKeyboardButton("Irish",callback_data = "ga")
            ],
-           [InlineKeyboardButton("<--- Back",callback_data = "page1"),
+           [InlineKeyboardButton("« Back",callback_data = "page1"),
            InlineKeyboardButton(" Next »",callback_data = "page3"),
            ]
             ])
@@ -163,7 +163,7 @@ async def translate_text(bot,update):
                 InlineKeyboardButton("Malagasy",callback_data ="mg"),
                 InlineKeyboardButton("Malay",callback_data ="ms")
                 ],
-                [InlineKeyboardButton("<--- Back",callback_data = "page2"),
+                [InlineKeyboardButton("« Back",callback_data = "page2"),
                 InlineKeyboardButton(" Next »",callback_data = "page4")
                 ]
               
@@ -195,7 +195,7 @@ async def translate_text(bot,update):
           InlineKeyboardButton("Russian",callback_data = "ru"),
           InlineKeyboardButton("Samoan",callback_data= "sm"),
           ],
-          [InlineKeyboardButton("<--- Back",callback_data = "page3"),
+          [InlineKeyboardButton("« Back",callback_data = "page3"),
           InlineKeyboardButton("Next »",callback_data = "page5")
           ]
           
@@ -229,7 +229,7 @@ async def translate_text(bot,update):
          InlineKeyboardButton("Tatar",callback_data = "tt"),
          InlineKeyboardButton("Telugu",callback_data = "te")
          ],
-         [InlineKeyboardButton("<--- Back",callback_data = "page4"),
+         [InlineKeyboardButton("« Back",callback_data = "page4"),
          InlineKeyboardButton("Next »",callback_data = "page6")
          ]  ])
 
@@ -254,7 +254,7 @@ async def translate_text(bot,update):
        [InlineKeyboardButton("Xhosa",callback_data = "xh"),
        InlineKeyboardButton("Yiddish",callback_data = "yi"),
        InlineKeyboardButton("Yoruba",callback_data = "yo")],
-       [InlineKeyboardButton("<--- Back",callback_data = "page5")
+       [InlineKeyboardButton("« Back",callback_data = "page5")
        
        ] ])
       
@@ -263,17 +263,17 @@ async def translate_text(bot,update):
       tr_text = update.message.reply_to_message.text
       cb_data = update.data
       if cb_data== "page2":
-      	await update.message.edit("Select language 👇",reply_markup = keybord2)
+      	await update.message.edit("Select language 🔽",reply_markup = keybord2)
       elif cb_data == "page1":
-      	await update.message.edit("Select language 👇",reply_markup =keybord1)
+      	await update.message.edit("Select language 🔽",reply_markup =keybord1)
       elif cb_data =="page3":
-      	await update.message.edit("Select language 👇",reply_markup =keybord3)
+      	await update.message.edit("Select language 🔽",reply_markup =keybord3)
       elif cb_data == "page4":
-      	await update.message.edit("Select language 👇",reply_markup =keybord4)
+      	await update.message.edit("Select language 🔽",reply_markup =keybord4)
       elif cb_data =="page5":
-      	await update.message.edit("Select language 👇",reply_markup =keybord5)
+      	await update.message.edit("Select language 🔽",reply_markup =keybord5)
       elif cb_data =="page6":
-      	await update.message.edit("Select language 👇",reply_markup =keybord6)
+      	await update.message.edit("Select language 🔽",reply_markup =keybord6)
       else :
       		try:
       			translator = Translator()

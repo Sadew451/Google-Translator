@@ -13,7 +13,7 @@ async def start(client, message):
           insert(int(message.chat.id))
           await message.reply_text(text =f"Hello **{message.from_user.first_name }** \n\nI am simple Google Translater Bot \nI can translate any language to you selected language__\n[SDBOTs](https://telegra.ph/file/8ec3ccd54a4a6016986c4.jpg)",
 				   reply_to_message_id = message.message_id , parse_mode="markdown",
-				   reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Bot Support 👥", url="https://t.me/SDBOTz"),
+				   reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Bot Support 👥", url="https://t.me/SDBOTz")]]
 					                              [InlineKeyboardButton("Bot Support 👥", url="https://t.me/SDBOTz"),
 								      InlineKeyboardButton("Devoloper 👩‍💻",url = "https://t.me/Itz_Sadew")]]))
             

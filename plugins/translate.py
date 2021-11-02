@@ -21,7 +21,7 @@ async def start(client, message):
 async def echo(client, message):
 	keybord1= InlineKeyboardMarkup( [
         [ 
-            InlineKeyboardButton("Afrikaans", callback_data='af'),
+            InlineKeyboardButton("* Afrikaans *", callback_data='af'),
              InlineKeyboardButton("Albanian", callback_data='sq'),
             InlineKeyboardButton("Amharic",callback_data ='am'),
         ],

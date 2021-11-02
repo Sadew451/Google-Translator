@@ -11,7 +11,7 @@ from helper.langlist import langlist
 @Client.on_message(filters.private & filters.command(['start']))
 async def start(client, message):
           insert(int(message.chat.id))
-          await message.reply_text(text =f"👋 Hey  **{}** \n\nI am simple Google Translater Bot \nI can translate any language to you selected language__",
+          await message.reply_text(text =f"👋 Hey  **{first}** \n\nI am simple Google Translater Bot \nI can translate any language to you selected language__",
 				   reply_to_message_id = message.message_id , parse_mode="markdown",
 				   reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("SDBOTs News 🙋‍♀️", url="https://t.me/SDBOTs_Inifinity")],
 								      [InlineKeyboardButton("Bot Support 👥", url="https://t.me/SDBOTz"),

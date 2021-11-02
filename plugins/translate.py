@@ -15,7 +15,6 @@ async def start(client, message):
 				   reply_to_message_id = message.message_id , parse_mode="markdown",
 				   reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("SDBOTs News 📣", url="https://t.me/SDBOTs_Inifinity")],
 								      [InlineKeyboardButton("Bot Support 💬", url="https://t.me/SDBOTz"),
-								       InlineKeyboardButton("Scource 💾", url="https://github.com/Sadew451"),
 								       InlineKeyboardButton("Devoloper 👑",url = "https://t.me/Itz_Sadew")]]))
 
 @Client.on_message(filters.private & filters.text  )

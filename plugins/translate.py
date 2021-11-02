@@ -17,7 +17,6 @@ async def start(client, message):
 								      [InlineKeyboardButton("Bot Support 👥", url="https://t.me/SDBOTz"),
 								      InlineKeyboardButton("Devoloper 👩‍💻",url = "https://t.me/Itz_Sadew")]]))
 	                                                              STICKERS = (
-
 @Client.on_message(filters.private & filters.text  )
 async def echo(client, message):
 	keybord1= InlineKeyboardMarkup( [

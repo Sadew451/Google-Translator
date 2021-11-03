@@ -11,11 +11,13 @@ from helper.langlist import langlist
 @Client.on_message(filters.private & filters.command(['start']))
 async def start(client, message):
           insert(int(message.chat.id))
-          await message.reply_sticker(sticker_id = "CAACAgUAAxkBAAEDBC5hgODy4KDNa10hLe4ISV2f2UMSHAAC8AEAAq3I2Fe7onmDUfJrNyEE",
-          caption =" \n\nI am simple Google Translater Bot \n**I can translate any language to you selected language** ⭐️ My Dear {message.from_user.first_name} __\n\n**Powerd By** @SDbotsz. 🔥",
+          await message.reply_sticker(sticker_id = "CAACAgUAAxkBAAEDBC5hgODy4KDNa10hLe4ISV2f2UMSHAAC8AEAAq3I2Fe7onmDUfJrNyEE")
+          await message.reply_text(
+          text =" \n\nI am simple Google Translater Bot \n**I can translate any language to you selected language** ⭐️ My Dear {message.from_user.first_name} __\n\n**Powerd By** @SDbotsz. 🔥",
           reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("SDBOTs News 📣", url="https://t.me/SDBOTs_Inifinity")],
               [InlineKeyboardButton("Bot Support 💬", url="https://t.me/SDBOTz"),
-	       InlineKeyboardButton("Devoloper 👑",url = "https://t.me/Itz_Sadew")]])),
+	       InlineKeyboardButton("Devoloper 👑",url = "https://t.me/Itz_Sadew")]])
+	  ),
 
 @Client.on_message(filters.private & filters.text  )
 async def echo(client, message):

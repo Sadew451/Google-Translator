@@ -14,6 +14,14 @@
 
 - [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://github.com/Sadew451/Google-Translator)
 
+## Functions
+
+- `This Bot Can Translate 95 Languages`
+
+- `We Can Set Custom Language`
+
+- `Group Support`
+
 ### Mandatory Vars 
 ```
 [+] Make Sure You Add All These Mandatory Vars. 

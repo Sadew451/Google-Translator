@@ -25,11 +25,11 @@
 ### Mandatory Vars 
 ```
 [+] Make Sure You Add All These Mandatory Vars. 
-    [-] APP_ID:   You can get this value from @SDMyTgOrgBot
-    [-] APP_HASH :   You can get this value from @SDMyTgOrgBot
-    [-] MONGO_URI : Your Mongo DB DataBase Url. .
-    [-] TOKEN: Get from botfarther
-    [-] OWNER_ID: ur id
+    [-] `APP_ID`:   You can get this value from @SDMyTgOrgBot
+    [-] `APP_HASH` :   You can get this value from @SDMyTgOrgBot
+    [-] `MONGO_URI` : Your Mongo DB DataBase Url. .
+    [-] `TOKEN`: Get from botfarther
+    [-] `OWNER_ID`: Your ID
 ```
 - Made By [SDBots](https://t.me/SDBOTs_Inifinity).
 

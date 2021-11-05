@@ -1,5 +1,7 @@
 <h1 align="center"><b><b> Google Translator </b></b></h1>
 
+<h1 align="center"><b><b> Made With <a href="https://www.python.org"><img src="https://img.icons8.com/color/48/000000/python--v1.png"/></a> </b></b></h1>
+
 ### Made With <a href="https://www.python.org"><img src="https://img.icons8.com/color/48/000000/python--v1.png"/></a>
 
 <p align="center"><a href="https://t.me/SDBOTz"><img src="https://telegra.ph/file/d317b62a823434ddde37b.png" width="400"></a></p>

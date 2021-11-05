@@ -23,7 +23,7 @@
   </a>
 </p>
 
+- Special thanks to [Lntechnical2](https://github.com/lntechnical2) 
 - [Sadew Jayasekara](https://github.com/Sadew451) 
 - [Damantha Jasinghe](https://github.com/Damantha126)
-- [Lntechnical2](https://github.com/lntechnical2) 
 - [Supun Maduranga](https://github.com/YoutubeSlgeekShow)

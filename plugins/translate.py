@@ -14,9 +14,9 @@ async def start(client, message):
           await message.reply_sticker(sticker = "CAACAgUAAxkBAAEBN9FhhMQq99NL0eY70r47LmPghi9fsQAC2QUAAss5KFT5r0lsTegDZiIE")
           await message.reply_text(text =f"👋 Hello **{message.from_user.first_name }**. \n\nI am simple Google Translater Bot.**I can translate any language to you selected language** My Dear **`{message.from_user.first_name }`**  __\n\n**Powerd By** @SDbotsz. 🔥",
           reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("SDBOTs News 🙋‍♀️", url="https://t.me/SDBOTs_Inifinity")],
-               [InlineKeyboardButton("Bot Support 💬", url="https://t.me/SDBOTz")],
+               [InlineKeyboardButton("Bot Support 💬", url="https://t.me/SDBOTz"),
 	       InlineKeyboardButton("Scource 💾", url="https://Github.com/Sadew451"),
-	       InlineKeyboardButton("Devoloper 👑",url = "https://t.me/Itz_Sadew")),
+	       InlineKeyboardButton("Devoloper 👑",url = "https://t.me/Itz_Sadew")]])
 	  ),
 
 @Client.on_message(filters.private & filters.text  )

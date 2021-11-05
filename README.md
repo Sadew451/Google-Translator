@@ -1,7 +1,5 @@
 <h1 align="center"><b><b> Google Translator </b></b></h1>
 
-<h1 align="center"><b><b><a href="https://www.python.org"><img src="https://img.icons8.com/color/48/000000/python--v1.png"/></a> </b></h1>
-
 <p align="center"><a href="https://t.me/SDBOTz"><img src="https://telegra.ph/file/d317b62a823434ddde37b.png" width="400"></a></p>
 <p align="center">
 
@@ -29,7 +27,7 @@
     [-] OWNER_ID: Your ID
 ```
 - Made By [SDBots](https://t.me/SDBOTs_Inifinity).
-
+- Made With <a href="https://www.python.org"><img src="https://img.icons8.com/color/48/000000/python--v1.png"/></a>
 - ## Support
    <a href="https://t.me/SDBOTs_Inifinity"><img src="https://img.shields.io/badge/Channel%20Support%3F-yes-green?&style=flat-square?&logo=telegram" width=220px></a></p>
    <a href="https://t.me/SDBOTz"><img src="https://img.shields.io/badge/Group%20Support%3F-yes-green?&style=flat-square?&logo=telegram" width=220px></a></p>

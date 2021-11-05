@@ -9,6 +9,9 @@
   <img src="https://telegra.ph/file/7bbcfc3134515dd4229ba.jpg" width='600"'>
 </p>
 
+### Heroku Deploy
+  - [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://github.com/Sadew451/Google-Translator)
+
 ### Mandatory Vars 
 ```
 [+] Make Sure You Add All These Mandatory Vars. 

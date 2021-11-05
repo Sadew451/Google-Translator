@@ -9,6 +9,8 @@
   <img src="https://telegra.ph/file/7bbcfc3134515dd4229ba.jpg" width='600"'>
 </p>
 
+![GitHub repo size](https://img.shields.io/github/repo-size/Sadew451/Google-Translator?label=Repo%20Size)
+
 ### Heroku Deploy
 
 - [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://github.com/Sadew451/Google-Translator)

@@ -10,7 +10,7 @@
 
 - ![GitHub repo size](https://img.shields.io/github/repo-size/Sadew451/Google-Translator?label=Repo%20Size)
 
-> ### Heroku Deploy ❤️
+### Heroku Deploy ❤️
 
 - [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://github.com/Sadew451/Google-Translator)
 

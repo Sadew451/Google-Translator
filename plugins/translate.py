@@ -12,7 +12,7 @@ from helper.langlist import langlist
 async def start(client, message):
           insert(int(message.chat.id))
           await message.reply_sticker(sticker_id = "CAACAgUAAxkDAAEBKVdhgigaPskhVDzSNDAE6qWKXT_U1AACNwQAAllCIVfqEGEnH-rFjCEE",
-          caption =" \n\nI am simple Google Translater Bot \n**I can translate any language to you selected language** ⭐️ My Dear {message.from_user.first_name} __\n\n**Powerd By** @SDbotsz. 🔥",
+          caption =" \n\nI am simple Google Translater Bot \n**I can translate any language to you selected language** ⭐️ My Dear\n\n**Powerd By** @SDbotsz. 🔥",
           reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("SDBOTs News 📣", url="https://t.me/SDBOTs_Inifinity")],
               [InlineKeyboardButton("Bot Support 💬", url="https://t.me/SDBOTz"),
 	       InlineKeyboardButton("Devoloper 👑",url = "https://t.me/Itz_Sadew")]])),

@@ -4,17 +4,17 @@
 
     "description": "Google Translater Bot v2",
 
-    "logo": "https://tg-link.herokuapp.com/dl/0/AgADVa4xG8MrSVc.jpg",
+    "logo": "https://telegra.ph/file/d317b62a823434ddde37b.png",
 
     "keywords": [
 
-        "Google translater",
+        "SD",
 
-        "Mongo DB"
+        "Google Translator"
 
     ],
 
-    "repository": "https://github.com/lntechnical2/Google_Translater_V2",
+    "repository": "https://github.com/Sadew451/Google-Translator",
 
     "success_url": "https://telegram.dog/lntechnical",
 
@@ -22,7 +22,7 @@
 
         "API_ID": {
 
-            "description": "Your APP ID From my.telegram.org ",
+            "description": "Your APP ID From @SDMyTgOrgBot ",
 
             "value": ""
 
@@ -30,7 +30,7 @@
 
         "API_HASH": {
 
-            "description": "Your API Hash From my.telegram.org ",
+            "description": "Your API Hash From @SDMyTgOrgBot",
 
             "value": ""
 
@@ -52,7 +52,7 @@
 
         "DB_URL": {
 
-            "description": "Your Mongo DB URL Obtained From mongodb.com Watch This Video https://youtu.be/HhHzCfrqsoE",
+            "description": "Your Mongo DB URL Obtained From mongodb.com",
 
             "value": ""
 

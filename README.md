@@ -18,7 +18,7 @@
     [-] TOKEN: Get from botfarther
     [-] OWNER_ID: ur id
 ```
-[+] Made By [SDBots](https://github.com/SDBOTs_Inifinity).
+- Made By [SDBots](https://t.me/SDBOTs_Inifinity).
 
 
 ## Credits

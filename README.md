@@ -17,8 +17,9 @@
     [-] MONGO_URI : Your Mongo DB DataBase Url. .
     [-] TOKEN: Get from botfarther
     [-] OWNER_ID: ur id
-[+] Made By [SDBots](https://github.com/SDBOTs_Inifinity).
 ```
+[+] Made By [SDBots](https://github.com/SDBOTs_Inifinity).
+
 
 ## Credits
 

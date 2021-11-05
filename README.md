@@ -5,9 +5,8 @@
         <img src="http://forthebadge.com/images/badges/made-with-python.svg" alt="made-with-python">
     </a>
 
+<p align="center"><a href="https://t.me/SDBOTz"><img src="https://telegra.ph/file/d317b62a823434ddde37b.png" width="400"></a></p>
 <p align="center">
-  <img src="https://telegra.ph/file/d317b62a823434ddde37b.png" width='600"'>
-</p>
 
 - ![GitHub repo size](https://img.shields.io/github/repo-size/Sadew451/Google-Translator?label=Repo%20Size)
 

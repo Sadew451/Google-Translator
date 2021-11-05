@@ -6,7 +6,7 @@
     </a>
 
 <p align="center">
-  <img src="https://telegra.ph/file/b54d4848c3eb5b4907e8a.png" width='600"'>
+  <img src="https://telegra.ph/file/d317b62a823434ddde37b.png" width='600"'>
 </p>
 
 - ![GitHub repo size](https://img.shields.io/github/repo-size/Sadew451/Google-Translator?label=Repo%20Size)

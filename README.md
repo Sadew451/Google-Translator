@@ -26,8 +26,8 @@
     [-] TOKEN : Get from botfarther
     [-] OWNER_ID: Your ID
 ```
-## - Made By [SDBots](https://t.me/SDBOTs_Inifinity).
-## - Made With <a href="https://www.python.org"><img src="https://img.icons8.com/color/48/000000/python--v1.png"/></a>
+> - Made By [SDBots](https://t.me/SDBOTs_Inifinity).
+> - Made With <a href="https://www.python.org"><img src="https://img.icons8.com/color/48/000000/python--v1.png"/></a>
 
 ## Support
    <a href="https://t.me/SDBOTs_Inifinity"><img src="https://img.shields.io/badge/Channel%20Support%3F-yes-green?&style=flat-square?&logo=telegram" width=220px></a></p>
